@@ -1,0 +1,35 @@
+.puff-container1, .puff-container2{
+    width: 80vw;
+    margin: 20px auto 100px;
+    overflow: hidden;
+    background-color: rgba(50,50,50,0.8);
+    border-radius: 10px;
+}
+.puff-container1 h1, .puff-container2 h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0 0;
+    color: rgba(157, 213, 111, 0.7);
+}
+.puff-container1 > .puff, .puff-container2 > .puff{
+padding: 10px;
+    float: left;
+    width: 33.333%;
+}
+.puff-container2 > .puff{
+padding: 10px;
+    float: left;
+    width: 20%;
+}
+.puff img{
+    width: 100%;
+    border-radius: 10%;
+}
+.puff a{
+    text-decoration: none;
+    color: rgba(157, 213, 111, 0.7);
+}
+.puff .ingress{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
