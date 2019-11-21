@@ -11,7 +11,7 @@ body {
 }
 .header {
     height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba(157, 213, 111, 0.7), rgba(40, 164, 180, 0.7)), url(/pictures/hero.jpg);
+    background-image: linear-gradient(to right bottom, rgba(157, 213, 111, 0.2), rgba(40, 164, 180, 0.2)), url(/pictures/legoBG.jpg);
     background-size: cover;
     background-position: top;
 }
