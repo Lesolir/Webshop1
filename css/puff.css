@@ -1,8 +1,8 @@
 .puff-container1, .puff-container2{
     width: 80vw;
-    margin: 40px auto;
+    margin: 40px auto 60px;
     overflow: hidden;
-    background-color: rgba(200, 200, 200, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
 }
 .puff-container1 h1, .puff-container2 h1 {
