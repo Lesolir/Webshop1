@@ -1,5 +1,7 @@
 .puff-container1 {
     width: 80vw;
+    height: 40vh;
+    min-height: 280px;
     margin: 40px auto 60px;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.7);
@@ -16,8 +18,12 @@
     float: left;
     width: 33.333%;
 }
+.puff {
+    height: 40vh;
+}
 .puff img{
-    width: 70%;
+    height: 50%;
+    min-height: 130px;
     border-radius: 5%;
 }
 .puff a{
