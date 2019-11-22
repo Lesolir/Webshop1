@@ -1,25 +1,20 @@
-.puff-container1, .puff-container2{
+.puff-container1 {
     width: 80vw;
     margin: 40px auto 60px;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
 }
-.puff-container1 h1, .puff-container2 h1 {
+.puff-container1 h1 {
     font-size: 2rem;
     text-align: center;
     margin: 10px 0 0;
     color: rgba(0, 100, 160, 0.8);
 }
-.puff-container1 > .puff, .puff-container2 > .puff{
-padding: 10px;
+.puff-container1 > .puff {
+    padding: 10px;
     float: left;
     width: 33.333%;
-}
-.puff-container2 > .puff{
-padding: 10px;
-    float: left;
-    width: 20%;
 }
 .puff img{
     width: 70%;
