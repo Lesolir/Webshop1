@@ -6,49 +6,66 @@
 body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
+    color: rgba(40, 164, 180, 0.8);
     text-align: center;
 }
+
+/* HEADER */
+
 .header {
-    height: 100vh;
-    /*background-image: linear-gradient(to right bottom, rgba(157, 213, 111, 0.2), rgba(40, 164, 180, 0.2)), url(/pictures/legoBG.jpg);*/
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(40, 164, 180, 0.2)), url(/pictures/legoBG.jpg);
-    background-size: cover;
-    background-position: top;
-}
-nav {
-    /*background-image: linear-gradient(to right, #333, #444);*/
-    background-image: linear-gradient(to right, #fff, #fff);
-    font-size: 1.2rem;
+    height: 5vh;
+    min-height: 56px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    display: block;
+}
+nav {
+    font-size: 1.2rem;
+    top: 0;
 }
 ul {
     list-style: none;
-    overflow: hidden;
-    color: rgba(40, 164, 180, 0.7);
+    color: rgba(40, 164, 180, 0.8);
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
 }
 li {
     float: left;
 }
 li a {
-    color: rgba(40, 164, 180, 0.7);
+    color: rgba(40, 164, 180, 0.8);
     text-align: center;
     padding: 12px;
     text-decoration: none;
 }
 li a:hover, li a.active {
-    background-color: rgba(40, 164, 180, 0.7);
+    background-color: rgba(40, 164, 180, 0.8);
     color: #333;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 li:last-child {
     float: right;
 }
+
+/* MAIN */
+
+main {
+    padding: 10px;
+    min-height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url(/pictures/legoBG.jpg);
+    background-size: cover;
+}
 h1 {
     font-size: 26px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid rgba(0, 0, 0, 0.4);
 }
