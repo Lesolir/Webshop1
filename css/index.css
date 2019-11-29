@@ -16,7 +16,7 @@ body {
     height: 5vh;
     min-height: 56px;
     background-color: white;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
     overflow: hidden;
     position: -webkit-sticky;
     position: sticky;
@@ -35,7 +35,7 @@ ul {
     text-decoration: none;
 }
 li {
-    float: left;
+    float: right;
 }
 li a {
     color: rgba(40, 164, 180, 0.8);
@@ -49,8 +49,8 @@ li a:hover, li a.active {
     color: #333;
     border-radius: 5px;
 }
-li:last-child {
-    float: right;
+li:first-child {
+    float: left;
 }
 
 /* MAIN */
