@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 5px;
     border: 2px solid rgba(0, 0, 0, 0.2);
 }
@@ -14,13 +14,13 @@
     font-size: 2rem;
     text-align: center;
     margin: 10px 0 0;
-    color: rgba(0, 100, 160, 0.8);
+    color: rgba(40, 164, 180, 0.8);
 }
 .card {
     max-width: 300px;
     min-width: 140px;
     display: flex;
-    border: 1px solid rgba(230, 10, 10, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 10px;
     margin: 10px;
     flex: 1 1;
@@ -43,14 +43,14 @@
 .card-buttons{
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
+    margin: 5px 5px 0;
     align-items: center;
 }
 .card-buttons a{
-    font-size: 12px;
+    font-size: 0.8rem;
     background-color: rgba(40, 164, 180, 0.8);
     color: white;
-    padding: 4px;
+    padding: 6px;
     border-radius: 5px;
     margin: 2px;
 }
