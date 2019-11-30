@@ -10,7 +10,8 @@
 }
 .carousel-content{
     margin: auto;
-    width: 300px;
+    /*width: 300px;*/
+    width: 16vw;
     perspective: 1000px;
     padding-top: 40px;
 }
@@ -24,8 +25,12 @@
     cursor: pointer;
 }
 .carousel-item{
-    width: 300px;
-    height: 170px;
+    /*width: 300px;
+    height: 170px;*/
+    width: 16vw;
+    height: 10vw;
+    max-width: 300px;
+    max-height: 170px;
     border: 2px solid rgba(27, 27, 27, 0.8);
     overflow: hidden;
     position: absolute;
@@ -33,22 +38,22 @@
     border-radius: 5px;
 }
 .carousel-item:nth-child(1) {
-	transform: rotateY(0deg) translateZ(300px); 
+	transform: rotateY(0deg) translateZ(16vw); 
 } 
 .carousel-item:nth-child(2) {
-	transform: rotateY(60deg) translateZ(300px); 
+	transform: rotateY(60deg) translateZ(16vw); 
 } 
 .carousel-item:nth-child(3) {
-	transform: rotateY(1200deg) translateZ(300px); 
+	transform: rotateY(1200deg) translateZ(16vw); 
 } 
 .carousel-item:nth-child(4) {
-	transform: rotateY(180deg) translateZ(300px); 
+	transform: rotateY(180deg) translateZ(16vw); 
 } 
 .carousel-item:nth-child(5) {
-	transform: rotateY(240deg) translateZ(300px); 
+	transform: rotateY(240deg) translateZ(16vw); 
 } 
 .carousel-item:nth-child(6) {
-	transform: rotateY(300deg) translateZ(300px); 
+	transform: rotateY(300deg) translateZ(16vw); 
 }
 .carousel-item img{
     image-rendering: auto;
