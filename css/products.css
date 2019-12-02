@@ -45,9 +45,6 @@ li a:hover, li a.active {
     color: #333;
     border-radius: 15px;
 }
-li:last-child {
-    float: right;
-}
 h1 {
     font-size: 26px;
 }
