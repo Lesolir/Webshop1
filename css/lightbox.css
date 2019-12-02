@@ -12,9 +12,20 @@
 .lightbox img{
     max-width: 40%;
     height: auto;
-    margin-top: 10%;
+    margin-top: 100px;
 }
 .lightbox:target{
     outline: none;
     display: block;
 }
+.cart-add{
+    width: 50vw;
+    height: 40vw;
+    min-height: 280px;
+    margin: 100px auto;
+    background-color: white;
+}
+    .lightbox-cart a{
+        text-decoration: none;
+        color: rgba(15, 138, 155, 0.8);
+    }
