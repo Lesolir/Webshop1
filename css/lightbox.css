@@ -22,10 +22,17 @@
     width: 50vw;
     height: 40vw;
     min-height: 280px;
+    min-width: 200px;
     margin: 100px auto;
     background-color: white;
 }
-    .lightbox-cart a{
-        text-decoration: none;
-        color: rgba(15, 138, 155, 0.8);
-    }
+.cart-add img{
+    margin-top: 50px;
+}
+.lightbox-cart a{
+    text-decoration: none;
+    color: rgba(15, 138, 155, 0.8);
+}
+.add-item-text{
+    margin-top: 1vw;
+}
