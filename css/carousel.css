@@ -5,8 +5,8 @@
     max-height: 400px;
     min-height: 220px;
     width: 80vw;
-    overflow: hidden;
-    /*background-color: rgba(255, 255, 255, 0.8);
+    /*overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid rgba(0, 0, 0, 0.4);
     border-radius: 5px;*/
 }
@@ -36,7 +36,7 @@
     border: 2px solid rgba(27, 27, 27, 0.8);
     overflow: hidden;
     position: absolute;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
     border-radius: 5px;
 }
 .carousel-item:nth-child(1) {
@@ -46,7 +46,7 @@
 	transform: rotateY(60deg) translateZ(16vw); 
 } 
 .carousel-item:nth-child(3) {
-	transform: rotateY(1200deg) translateZ(16vw); 
+	transform: rotateY(120deg) translateZ(16vw); 
 } 
 .carousel-item:nth-child(4) {
 	transform: rotateY(180deg) translateZ(16vw); 
@@ -58,7 +58,7 @@
 	transform: rotateY(300deg) translateZ(16vw); 
 }
 .carousel-item img{
-    image-rendering: auto;
+    /*image-rendering: auto;*/
     transition: all 300ms;
     width: 100%;
     height: 100%;
