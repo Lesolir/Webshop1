@@ -51,3 +51,70 @@ li:last-child {
 h1 {
     font-size: 26px;
 }
+.card-container {
+    width: 80vw;
+    min-height: 330px;
+    margin: 10px auto 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.card-container h1 {
+    flex-basis: 100%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0 0;
+    color: rgba(15, 138, 155, 0.8);
+}
+.card {
+    max-width: 250px;
+    min-width: 140px;
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    background-color: white;
+    padding: 0;
+    margin: 10px 14px 14px;
+    flex: 1 1;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.6);
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 100%;
+}
+.card-text{
+    margin: 0 5px;
+}
+.card-items{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+}
+.card p{
+    flex: 1 1;
+    margin: 6px;
+}
+.card-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+}
+.card-buttons a{
+    font-size: 0.8rem;
+    background-color: rgba(15, 138, 155, 0.8);
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+    margin: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.card-buttons a:hover{
+    box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.8);
+}
