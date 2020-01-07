@@ -13,21 +13,23 @@ body {
 /* HEADER */
 
 .header {
-    height: 5vh;
-    min-height: 56px;
+    height: 56px;
     background-color: white;
     border-bottom: 2px solid rgba(0, 0, 0, 0.4);
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1337;
 }
-nav {
+.desktop-navbar {
     font-size: 1.2rem;
     top: 0;
+    display: flex;
+    display: none;
+    justify-content: space-between;
 }
-ul {
+.desktop-navbar ul {
     list-style: none;
     color: rgba(15, 138, 155, 0.8);
     text-align: center;
@@ -36,22 +38,75 @@ ul {
     overflow: hidden;
     display: flex;
 }
-li a {
+.desktop-navbar li a {
     color: rgba(15, 138, 155, 0.8);
     text-align: center;
     padding: 12px;
     text-decoration: none;
     margin: 0 2px;
 }
-li a:hover, li a.active {
+.desktop-navbar li a:hover, .desktop-navbar li a.active {
     background-color: rgba(15, 138, 155, 0.8);
     color: #333;
     border-radius: 5px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
 }
-.navbar{
+
+.mobile-navbar{
+    /*display: none;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;*/
+    display: block;
+    border: 2px solid green;
+}
+.mobile-nav{
+    /*width: 100vw;*/
+    height: 56px;
+    border: 2px solid yellow;
+}
+button{
+    height: 52px;
+    width: 52px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+button .fa{
+    font-size: 2rem;
+    margin: 10px;
+    color: rgb(15, 138, 155);
+}
+.mobile-dropdown-menu{
+    /*display: none;
+    width: 100vw;*/
+    border: 2px solid red;
+}
+.mobile-dropdown-container{
+    height: 96vh;
+    border: 2px solid black;
+}
+.mobile-dropdown ul{
+    list-style: none;
+}
+.mobile-dropdown ul li{
+    margin: 12px;
+    float: left;
+}
+.mobile-navbar ul li a{    
+    text-decoration: none;
+    color: rgb(15, 138, 155);
+}
+.mobile-dropdown{
+    float: left;
+    height: 200px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.6);
+}
+#mobile-menu:target{
+    display: block;
 }
 
 /* MAIN */
@@ -72,7 +127,7 @@ footer {
     background-color: rgb(255, 255, 255);
     border-top: 2px solid rgba(0, 0, 0, 0.4);
 }
-
+/*
 @media (min-width: 768px) and (max-width: 991.98px){
     
 }
@@ -80,5 +135,10 @@ footer {
     
 }
 @media (max-width: 575.98px){
-    
+    .desktop-navbar{
+        display:none;
+    }
+    .mobile-navbar{
+        display: contents;
+    }
 }

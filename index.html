@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar">
+        <nav class="desktop-navbar">
             <ul class="nav-buttons">
                 <li class="nav-home"><a href="index.html" class="active">Hem</a></li>  
             </ul>
@@ -23,6 +24,25 @@
                 <li class="nav-right"><a href="rea.html">REA</a></li>
             </ul>
         </nav>
+        <div class="mobile-navbar">
+            <div class="mobile-nav">
+                <button >
+                    <a href="#mobile-menu"><i class="fa">&#xf0c9;</i></a>
+                </button>
+            </div>
+            <div class="mobile-dropdown-menu">
+                <a href="#" class ="mobile-dropdown-container" id="mobile-menu" >  
+                    <div class="mobile-dropdown">
+                        <ul>
+                            <li><a href="index.html" class="active">Hem</a></li>
+                            <li><a href="products.html">Produkter</a></li>
+                            <li><a href="news.html">Nyheter</a></li>
+                            <li><a href="rea.html">REA</a></li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
     </header>
     <main>
 

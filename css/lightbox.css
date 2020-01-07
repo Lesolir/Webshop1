@@ -21,7 +21,7 @@
 }
 .cart-add{
     width: 50vw;
-    height: 40vw;
+    height: auto;
     min-height: 280px;
     min-width: 200px;
     margin: 100px auto;
