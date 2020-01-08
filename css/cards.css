@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .card-container {
     width: 80vw;
     min-height: 330px;
@@ -17,34 +22,37 @@
     color: rgba(15, 138, 155, 0.8);
 }
 .card {
-    max-width: 250px;
-    min-width: 140px;
+    width: 150px;
     display: flex;
     border: 2px solid rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     background-color: white;
     padding: 0;
     margin: 10px 14px 14px;
-    flex: 1 1;
     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.6);
 }
 .card:hover{
     transform: scale(1.05);
 }
 .card img{
-    width: 100%;
+    width: 120px;
 }
 .card-text{
     margin: 0 5px;
 }
+.card-text h2{
+    font-size: 1.2rem;
+}
+.card-text h4{
+    font-size: 0.8rem;
+}
 .card-items{
     display: flex;
     flex-direction: column;
-    flex: 1 1;
 }
 .card p{
-    flex: 1 1;
     margin: 6px;
+    font-size: 0.8rem;
 }
 .card-buttons{
     display: flex;
@@ -64,4 +72,30 @@
 }
 .card-buttons a:hover{
     box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* MEDIA--------------------------------------------------------------------*/
+
+@media (min-width: 768px){
+    .card img{
+        width: 200px;
+    }
+    .card {
+        width: 220px;
+    }
+    .card-container h1 {
+        font-size: 2.5rem;
+    }
+    .card-buttons a{
+        font-size: 1rem;
+    }
+    .card-text h2{
+        font-size: 1.4rem;
+    }
+    .card-text h4{
+        font-size: 1rem;
+    }
+    .card p{
+    font-size: 1rem;
+    }
 }

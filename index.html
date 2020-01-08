@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lego to the people</title>
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/carousel.css">
@@ -14,35 +15,30 @@
 
 <body>
     <header class="header">
-        <nav class="desktop-navbar">
-            <ul class="nav-buttons">
-                <li class="nav-home"><a href="index.html" class="active">Hem</a></li>  
-            </ul>
-            <ul class="nav-buttons">
-                <li class="nav-right"><a href="products.html">Produkter</a></li>
-                <li class="nav-right"><a href="news.html">Nyheter</a></li>
-                <li class="nav-right"><a href="rea.html">REA</a></li>
-            </ul>
+        <nav>
+            <div class="nav_mobile">
+                <div class="nav_hamburger_button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <input class="nav_ham_button" type="checkbox">
+                <ul id="mobile_menu" class="nav_mobile_menu">
+                    <li class="active"><a href="index.html">Hem</a></li>
+                    <li><a href="news.html">Nyheter</a></li>
+                    <li><a href="products.html">Produkter</a></li>
+                    <li><a href="rea.html">REA</a></li>
+                </ul>
+            </div>
+            <div class="nav_desktop">
+                <ul>
+                    <li class="active"><a href="index.html">Hem</a></li>
+                    <li><a href="news.html">Nyheter</a></li>
+                    <li><a href="products.html">Produkter</a></li>
+                    <li><a href="rea.html">REA</a></li>
+                </ul>
+            </div>
         </nav>
-        <div class="mobile-navbar">
-            <div class="mobile-nav">
-                <button >
-                    <a href="#mobile-menu"><i class="fa">&#xf0c9;</i></a>
-                </button>
-            </div>
-            <div class="mobile-dropdown-menu">
-                <a href="#" class ="mobile-dropdown-container" id="mobile-menu" >  
-                    <div class="mobile-dropdown">
-                        <ul>
-                            <li><a href="index.html" class="active">Hem</a></li>
-                            <li><a href="products.html">Produkter</a></li>
-                            <li><a href="news.html">Nyheter</a></li>
-                            <li><a href="rea.html">REA</a></li>
-                        </ul>
-                    </div>
-                </a>
-            </div>
-        </div>
     </header>
     <main>
 
