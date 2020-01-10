@@ -1,14 +1,18 @@
-header{
-    width: 100vw;
-    color: rgba(15, 138, 155, 0.8);
-    background-color: white;
-}
-header nav{
+.nav_container{
     width: 100%;
-    height: 60px;
     display: flex;
     justify-content: flex-end;
-    border-bottom: 1px solid rgba(15, 138, 155, 0.8);
+}
+.nav{
+    width: 80%;
+    height: 60px;
+    margin: 4px 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    border: 1px solid rgba(15, 138, 155, 0.9);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
 
 /* NAV MOBILE---------------------------------------------------------------*/
@@ -23,7 +27,7 @@ header nav{
     display: none;
     position: absolute;
     width: 200px;
-    right: -20px;
+    right: -21px;
     top: 90px;
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(15, 138, 155, 0.9);
@@ -112,8 +116,13 @@ nav .nav_desktop ul .active a{
 /* MEDIA--------------------------------------------------------------------*/
 
 @media (min-width: 768px){
-    header nav{
-    justify-content: space-between;
+    .nav_container{
+    justify-content: center;
+}
+    .nav{
+        width: 60%;
+        justify-content: center;
+        border-radius: 12px;
     }
     .nav_mobile{
         display: none;

@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lego to the people</title>
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/carousel.css">
@@ -15,7 +17,10 @@
 
 <body>
     <header class="header">
-        <nav>
+        <div class="header_logo"><a href="index.html"><img src="./Pictures/lego-BG-blue.jpg" alt="Logo for LEGO"></a></div>
+        <div class="header_title"><h1>Välkommen till alla legobyggares dröm!</h1></div>
+        <div class="header_cart"><a href="cart.html"><img src="./Pictures/shopping-cart-logo.png" alt="Picture of shopping cart"></a></div>
+        <!--<nav class="nav">
             <div class="nav_mobile">
                 <div class="nav_hamburger_button">
                     <span></span>
@@ -38,11 +43,35 @@
                     <li><a href="rea.html">REA</a></li>
                 </ul>
             </div>
-        </nav>
+        </nav>-->
     </header>
     <main>
-
-        <h1>Välkommen till alla legobyggares dröm!</h1>
+        <section class="nav_container">
+            <nav class="nav">
+                <div class="nav_mobile">
+                    <div class="nav_hamburger_button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <input class="nav_ham_button" type="checkbox">
+                    <ul id="mobile_menu" class="nav_mobile_menu">
+                        <li class="active"><a href="index.html">Hem</a></li>
+                        <li><a href="products.html">Produkter</a></li>
+                        <li><a href="news.html">Nyheter</a></li>
+                        <li><a href="cart.html">Varukorg</a></li>
+                    </ul>
+                </div>
+                <div class="nav_desktop">
+                    <ul>
+                        <li class="active"><a href="index.html">Hem</a></li>
+                        <li><a href="products.html">Produkter</a></li>
+                        <li><a href="news.html">Nyheter</a></li>
+                        <li><a href="cart.html">Varukorg</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
 
         <!-- Start of carousel with rotating pictures of popular products-->
         <section class="carousel-products">

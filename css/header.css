@@ -1,0 +1,45 @@
+header{
+    width: 100vw;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(15, 138, 155, 0.8);
+    background-color: white;
+    border-bottom: 1px solid rgba(15, 138, 155, 0.4);
+}
+.header_logo img{
+    margin: 2px;
+    width: 100px;
+}
+header h1 {
+    font-size: 1.3rem;
+    flex-basis: 100%;
+    
+}
+.header_cart img{
+    width: 50px;
+    margin: 2px;
+    margin-right: 20px;
+}
+
+/* MEDIA--------------------------------------------------------------------*/
+
+@media (min-width: 768px){
+    header{
+        height: 82px;
+    }
+    header h1{
+        font-size: 1.4rem;
+        margin-right: 100px;
+    }
+    .header_logo img{
+        margin-left: 20px;
+    width: 132px;
+    }
+    .header_cart img{
+    width: 60px;
+    margin: 2px;
+    margin-right: 50px;
+    }
+}
