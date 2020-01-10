@@ -14,7 +14,7 @@
     border-radius: 5px;
     border: 2px solid rgba(0, 0, 0, 0.4);
 }
-.card-container h1 {
+.card-container h2 {
     flex-basis: 100%;
     font-size: 2rem;
     text-align: center;

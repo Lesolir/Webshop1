@@ -1,4 +1,21 @@
 footer {
-    background-color: rgb(255, 255, 255);
-    border-top: 2px solid rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(15, 138, 155, 0.8);
+    background-color: white;
+    border-bottom: 1px solid rgba(15, 138, 155, 0.4);
+}
+.footer_validation{
+    display: flex;
+}
+.footer_html img{
+    margin: 2px 2px 0 10px;
+    width: 40px;
+}
+.footer_css img{
+    margin: 2px 2px 0 10px;
+    width: 30px;
 }

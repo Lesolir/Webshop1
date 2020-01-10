@@ -67,6 +67,7 @@
     transform: scale(1.2);
     transition: all 300ms;
 }
+
 @keyframes rotate{
     from{
         transform: rotateY(0deg);
@@ -74,4 +75,5 @@
     to{
         transform: rotateY(360deg);
     }
+    
 }

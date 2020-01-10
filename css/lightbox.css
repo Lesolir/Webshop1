@@ -34,6 +34,10 @@
     text-decoration: none;
     color: rgba(15, 138, 155, 0.8);
 }
+.lightbox-cart h2{
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+}
 .add-item-text{
     margin-top: 1vw;
 }
