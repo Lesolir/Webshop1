@@ -22,12 +22,14 @@
     color: rgba(15, 138, 155, 0.8);
 }
 .card {
-    width: 150px;
+    width: 80%;
     display: flex;
+    flex-direction: column;
     border: 2px solid rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     background-color: white;
     padding: 0;
+    align-items: center;
     margin: 10px 14px 14px;
     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.6);
 }
@@ -35,7 +37,8 @@
     transform: scale(1.05);
 }
 .card img{
-    width: 120px;
+    height: 30vh;
+    width: 90%;
 }
 .card-text{
     margin: 0 5px;
@@ -46,19 +49,15 @@
 .card-text h4{
     font-size: 0.8rem;
 }
-.card-items{
-    display: flex;
-    flex-direction: column;
-}
 .card p{
+    color: #000;;
     margin: 6px;
     font-size: 0.8rem;
 }
 .card-buttons{
     display: flex;
-    justify-content: space-between;
     margin: 5px;
-    align-items: center;
+    justify-content:flex-end;
 }
 .card-buttons a{
     font-size: 0.8rem;
@@ -78,7 +77,7 @@
 
 @media (min-width: 768px){
     .card img{
-        width: 200px;
+        height: 50%;
     }
     .card {
         width: 220px;
