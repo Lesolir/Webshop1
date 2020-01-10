@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+.produkt-container {
+    width: 80vw;
+    min-height: 330px;
+    margin: 10px auto 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.produkt-container h1 {
+    flex-basis: 100%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0 0;
+    color: rgba(15, 138, 155, 0.8);
+}
+.produkt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    background-color: white;
+    padding: 0;
+}
+
+.produkt-text{
+    margin: 0 5px;
+}
+.produkt p{
+    margin: 6px;
+    font-size: 0.8rem;
+}
+.produkt-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+}
+.produkt-buttons a{
+    font-size: 0.8rem;
+    background-color: rgba(15, 138, 155, 0.8);
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+    margin: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.produkt-buttons a:hover{
+    box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* MEDIA--------------------------------------------------------------------*/
+
+@media (min-width: 768px){
+    .card img{
+        width: 200px;
+    }
+    .card {
+        width: 220px;
+    }
+    .card-container h1 {
+        font-size: 2.5rem;
+    }
+    .card-buttons a{
+        font-size: 1rem;
+    }
+    .card-text h2{
+        font-size: 1.4rem;
+    }
+    .card-text h4{
+        font-size: 1rem;
+    }
+    .card p{
+    font-size: 1rem;
+    }
+}
