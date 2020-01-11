@@ -2,14 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
-.card-container {
-    width: 80vw;
+body {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(44, 44, 44, 0.8);
     
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url(../pictures/legoBG.jpg);
+    background-size: cover;
+}
+
+/* CARDS */
+
+.card-container {
+    width: 80%;
+    height: 80%;
+    min-width: 244px;
     margin: 10px auto 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     border: 1px solid rgba(9, 84, 134, 0.8);
@@ -21,24 +46,44 @@
     margin: 10px 0 0;
     color: rgba(44, 44, 44, 0.8);
 }
-.card {
-    width: 80%;
+.card_map_holder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.card_map_holder img{
+    width: 200px;
+}
+.card_map {
+    width: 100%;
     display: flex;
     flex-direction: column;
     border: 1px solid rgba(9, 84, 134, 0.8);
     border-radius: 5px;
     background-color: white;
-    padding: 0;
+    padding: 6px;
     align-items: center;
     margin: 10px 14px 14px;
-    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.6);
 }
-.card:hover{
-    transform: scale(1.05);
+.card_info_holder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+
 }
-.card img{
-    
-    width: 90%;
+.card_info img{
+    width: 200px;
+}
+.card_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(9, 84, 134, 0.8);
+    border-radius: 5px;
+    background-color: white;
+    padding: 6px;
+    align-items: center;
+    margin: 10px 14px 14px;
 }
 .card-text{
     margin: 0 5px;
@@ -76,15 +121,26 @@
 /* MEDIA--------------------------------------------------------------------*/
 
 @media (min-width: 768px){
-    .card img{
-        /*height: 50%;*/
-        width: 200px;
-    }
-    .card {
-        width: 220px;
+    .card-container{
+        flex-direction: row;
     }
     .card-container h1 {
         font-size: 2.5rem;
+    }
+    .card_map_holder{
+        width: 300px;
+    }
+    .card_map img{
+        width: 280px;
+    }
+    
+    .card_info_holder{
+        width: 300px;
+    }
+    .card_info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     .card-buttons a{
         font-size: 1rem;
@@ -96,6 +152,11 @@
         font-size: 1rem;
     }
     .card p{
-    font-size: 1rem;
+        font-size: 1rem;
+    }
+}
+@media (min-width: 1200px){
+    .card_map img{
+        width: 400px;
     }
 }

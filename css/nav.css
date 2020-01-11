@@ -4,13 +4,13 @@
     justify-content: flex-end;
 }
 .nav{
-    width: 80%;
+    width: 84px;
     height: 60px;
     margin: 4px 0;
     display: flex;
     justify-content: flex-end;
     background-color: white;
-    border: 1px solid rgba(15, 138, 155, 0.9);
+    border: 1px solid rgba(9, 84, 134, 0.8);
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 }
@@ -29,8 +29,8 @@
     width: 200px;
     right: -21px;
     top: 90px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(15, 138, 155, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(44, 44, 44, 0.9);
     border-bottom-left-radius: 4px;
     z-index: 1;
 }
@@ -41,7 +41,7 @@
 }
 .nav_mobile_menu li a{
     text-decoration: none;
-    color: rgba(15, 138, 155, 0.8);
+    color: rgba(44, 44, 44, 0.8);
     font-size: 30px;
 }
 input{
@@ -80,7 +80,7 @@ input:hover{
     display: block;
 }
 .nav_mobile_menu .active a{
-    border-bottom: 1px solid rgba(15, 138, 155, 0.8);
+    border-bottom: 1px solid rgba(44, 44, 44, 0.8);
 }
 
 /* NAV DESKTOP-------------------------------------------------------------*/
@@ -92,7 +92,6 @@ input:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*margin-right: 10px;*/
     list-style: none;
 }
 .nav_desktop ul li{
@@ -101,15 +100,15 @@ input:hover{
 .nav_desktop a{
     padding: 8px 10px;
     text-decoration: none;
-    color: rgba(15, 138, 155, 0.8);
+    color: rgba(44, 44, 44, 0.8);
     border-radius: 4px;
 }
 .nav_desktop a:hover{
-    background-color: rgba(15, 138, 155, 0.8);
+    background-color: rgba(9, 84, 134, 0.8);
     color: white;
 }
 nav .nav_desktop ul .active a{
-    background-color: rgba(15, 138, 155, 0.8);
+    background-color: rgba(9, 84, 134, 0.8);
     color: white;
 }
 
@@ -135,17 +134,6 @@ nav .nav_desktop ul .active a{
     .nav_desktop ul li{
         margin: 5px 15px;
     }
-    main{
-        flex-direction: row;
-    }
-    .main_image{
-        width: 85%;
-    }
-    .side_menu{
-        order: -1;
-        width: 200px;
-    }
-    
 }
 @media (min-width: 992px){
     .nav_desktop{

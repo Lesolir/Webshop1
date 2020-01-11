@@ -1,19 +1,19 @@
 header{
-    width: 100vw;
     height: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgba(15, 138, 155, 0.8);
+    color: rgba(44, 44, 44, 0.8);
     background-color: white;
-    border-bottom: 1px solid rgba(15, 138, 155, 0.4);
+    border-bottom: 1px solid rgba(9, 84, 134, 0.8);
 }
 .header_logo img{
     margin: 2px 0 0 4px;
     width: 50px;
 }
-header h1 {
-    font-size: 1.3rem;
+.header_title h1 {
+    text-align: center;
+    font-size: 1.2rem;
     flex-basis: 100%;
     
 }
@@ -29,8 +29,8 @@ header h1 {
     header{
         height: 84px;
     }
-    header h1{
-        font-size: 1.4rem;
+    .header_title h1{
+        font-size: 2.0rem;
     }
     .header_logo img{
         margin: 2px 0 0 30px;

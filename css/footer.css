@@ -1,25 +1,23 @@
-footer {
-    width: 100vw;
+.footer {
     height: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgba(15, 138, 155, 0.8);
     background-color: white;
-    border-bottom: 1px solid rgba(15, 138, 155, 0.4);
+    border-top: 1px solid rgba(9, 84, 134, 0.8);
 }
 .footer_validation{
     display: flex;
+    align-items: center;
 }
 .footer_html img{
-    margin: 2px 2px 0 10px;
+    margin: 2px 0 0 10px;
     width: 40px;
 }
 .footer_css img{
     margin: 2px 2px 0 10px;
-    width: 30px;
+    width: 28px;
 }
-
 .footer_links{
     display: flex;
     align-items: center;
@@ -42,5 +40,6 @@ footer {
 }
 @media (min-width: 768px){
     .footer_postnord img{
-    margin: 2px 40px 6px 10px;
+        margin: 2px 40px 6px 10px;
+    }
 }
