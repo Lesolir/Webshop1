@@ -1,4 +1,4 @@
-footer {
+.footer {
     height: 64px;
     display: flex;
     justify-content: space-between;
@@ -9,12 +9,37 @@ footer {
 }
 .footer_validation{
     display: flex;
+    align-items: center;
 }
 .footer_html img{
-    margin: 2px 2px 0 10px;
+    margin: 2px 0 0 10px;
     width: 40px;
 }
 .footer_css img{
     margin: 2px 2px 0 10px;
-    width: 30px;
+    width: 28px;
+}
+.footer_links{
+    display: flex;
+    align-items: center;
+}
+.footer_klarna img{
+    margin: 8px 10px 0 2px;
+    width: 80px;
+}
+.footer_postnord img{
+    margin: 2px 20px 6px 10px;
+    width: 80px;
+}
+.footer_info{
+    display: flex;
+    align-items: center;
+}
+.footer_aboutus img{
+    margin: 2px 14px 0 2px;
+    width: 40px;
+}
+@media (min-width: 768px){
+    .footer_postnord img{
+    margin: 2px 40px 6px 10px;
 }
