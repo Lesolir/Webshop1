@@ -3,108 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777;
-    text-align: center;
-}
-.header {
-    height: 100vh;
-    /*background-image: linear-gradient(to right bottom, rgba(157, 213, 111, 0.2), rgba(40, 164, 180, 0.2)), url(/pictures/legoBG.jpg);*/
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(40, 164, 180, 0.2)), url(/pictures/legoBG.jpg);
-    background-size: cover;
-    background-position: top;
-}
-nav {
-    background-image: linear-gradient(to right, #333, #777);
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    display: block;
-}
-ul {
-    list-style: none;
-    overflow: hidden;
-    color: rgba(40, 164, 180, 0.7);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li {
-    float: left;
-}
-li a {
-    color: rgba(40, 164, 180, 0.7);
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-}
-li a:hover, li a.active {
-    background-color: rgba(40, 164, 180, 0.7);
-    color: #333;
-    border-radius: 15px;
-}
 h1 {
-    font-size: 26px;
+    text-align: center;
 }
-.card-container {
-    width: 80vw;
+.produkt-container {
+    width: 90%;
     min-height: 330px;
     margin: 10px auto 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, 0.4);
-    align-items: baseline;
 }
-.card-container h1 {
+.produkt-container h1 {
     flex-basis: 100%;
     font-size: 2rem;
     text-align: center;
-    margin: 10px 0 0;
-    color: rgba(15, 138, 155, 0.8);
+    margin: 10px;
+    color:#000;
 }
-.card {
-    max-width: 250px;
-    min-width: 140px;
-    display: flex;
-    border: 2px solid rgba(0, 0, 0, 0.4);
-    border-radius: 5px;
-    background-color: white;
-    padding: 0;
-    margin: 10px 14px 14px;
-    flex: 1 1;
-    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.6);
-}
-.card:hover{
-    transform: scale(1.05);
-}
-.card img{
-    width: 100%;
-    height: 20vh;
-}
-.card-text{
-    margin: 0 5px;
-}
-.card-items{
+.produkt {
+    width: 90%;
     display: flex;
     flex-direction: column;
-    flex: 1 1;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    background-color: white;
+    padding: 0;
 }
-.card p{
-    flex: 1 1;
+
+.produkt-text{
+    margin: 0 5px;
+}
+.produkt img {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 30px;
+}
+.produkt p{
     margin: 6px;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
 }
-.card-buttons{
+.produkt-buttons{
     display: flex;
     justify-content: space-between;
     margin: 5px;
     align-items: center;
 }
-.card-buttons a{
+.produkt-buttons a{
     font-size: 0.8rem;
     background-color: rgba(15, 138, 155, 0.8);
     color: white;
@@ -114,6 +61,32 @@ h1 {
     margin: 2px;
     border: 2px solid rgba(0, 0, 0, 0.2);
 }
-.card-buttons a:hover{
+.produkt-buttons a:hover{
     box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* MEDIA--------------------------------------------------------------------*/
+
+@media (min-width: 768px){
+    .produkt img{
+        width: 100%;
+    }
+    .produkt {
+        width: 50%;
+    }
+    .produkt-container h1 {
+        font-size: 2.5rem;
+    }
+    .produkt-buttons a{
+        font-size: 1rem;
+    }
+    .produkt-text h2{
+        font-size: 1.4rem;
+    }
+    .produkt-text h4{
+        font-size: 1rem;
+    }
+    .produkt p{
+    font-size: 1rem;
+    }
 }

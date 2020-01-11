@@ -1,4 +1,5 @@
-.footer {
+footer {
+    width: 100vw;
     height: 64px;
     display: flex;
     justify-content: space-between;
@@ -9,16 +10,16 @@
 }
 .footer_validation{
     display: flex;
-    align-items: center;
 }
 .footer_html img{
-    margin: 2px 0 0 10px;
+    margin: 2px 2px 0 10px;
     width: 40px;
 }
 .footer_css img{
     margin: 2px 2px 0 10px;
-    width: 28px;
+    width: 30px;
 }
+
 .footer_links{
     display: flex;
     align-items: center;
