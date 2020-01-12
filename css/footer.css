@@ -23,11 +23,11 @@
     align-items: center;
 }
 .footer_klarna img{
-    margin: 8px 10px 0 2px;
+    margin: 8px 20px 0 2px;
     width: 80px;
 }
 .footer_postnord img{
-    margin: 2px 20px 6px 10px;
+    margin: 2px 20px 0 0;
     width: 80px;
 }
 .footer_info{
@@ -41,5 +41,14 @@
 @media (min-width: 768px){
     .footer_postnord img{
         margin: 2px 40px 6px 10px;
+    }
+    .footer_links{
+        margin-top: 12px;
+    }
+    .footer_klarna img{
+        margin: 8px 40px 0 2px;
+    }
+    .footer_postnord img{
+        margin: 2px 20px 0 0;
     }
 }

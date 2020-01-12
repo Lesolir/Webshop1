@@ -67,7 +67,8 @@
     height: 80%;
 }
 .carousel-item h2{
-    margin-top: 5px;
+    margin-top: 2px;
+    font-size: 10px;
 }
 .carousel-item img:hover{
     transform: scale(1.2);
@@ -84,6 +85,10 @@
     
 }
 @media (min-width: 768px) and (max-width: 1199.8px){
+    .carousel-item h2{
+        margin-top: 5px;
+        font-size: 10px;
+    }
     .carousel-products{
         height: 140px;
     }
@@ -114,6 +119,10 @@
     }
 }
 @media (min-width: 1200px){
+    .carousel-item h2{
+        margin-top: 5px;
+        font-size: 16px;
+    }
     .carousel-products{
         height: 280px;
     }
