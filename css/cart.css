@@ -75,6 +75,9 @@ main {
     border-top: 1px dashed rgba(9, 84, 134, 0.8);
     padding: 5px 0;
 }
+.card_bought_items h3{
+    flex-basis: 100%;
+}
 .card-buttons{
     display: flex;
     
