@@ -8,14 +8,13 @@ h1 {
 }
 .produkt-container {
     width: 80vw;
-    min-height: 330px;
     margin: 10px auto 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(9, 84, 134, 0.8);
 }
 .produkt-container h1 {
     flex-basis: 100%;
@@ -25,10 +24,11 @@ h1 {
     color: rgba(15, 138, 155, 0.8);
 }
 .produkt {
-    width: 50%;
+    width: 40%;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    border: 2px solid rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(9, 84, 134, 0.8);
     border-radius: 2px;
     background-color: white;
     padding: 0;
@@ -36,6 +36,10 @@ h1 {
 
 .produkt-text{
     margin: 0 5px;
+}
+.produkt img {
+    height: 50%;
+    width: 100%;
 }
 .produkt p{
     margin: 6px;
@@ -45,11 +49,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin: 5px;
-    align-items: center;
 }
 .produkt-buttons a{
     font-size: 0.8rem;
-    background-color: rgba(15, 138, 155, 0.8);
+    background-color: rgba(9, 84, 134, 0.8);
     color: white;
     text-decoration: none;
     padding: 6px;
@@ -64,25 +67,26 @@ h1 {
 /* MEDIA--------------------------------------------------------------------*/
 
 @media (min-width: 768px){
-    .card img{
-        width: 200px;
+    .produkt img{
+        width: 100%;
+        height:50%;
     }
-    .card {
-        width: 220px;
+    .produkt {
+        width: 40%;
     }
-    .card-container h1 {
+    .produkt-container h1 {
         font-size: 2.5rem;
     }
-    .card-buttons a{
+    .produkt-buttons a{
         font-size: 1rem;
     }
-    .card-text h2{
+    .produkt-text h2{
         font-size: 1.4rem;
     }
-    .card-text h4{
+    .produkt-text h4{
         font-size: 1rem;
     }
-    .card p{
+    .produkt p{
     font-size: 1rem;
     }
 }
