@@ -69,6 +69,9 @@ main {
     font-size: 0.7rem;
 }
 .card_bought_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border-top: 1px dashed rgba(9, 84, 134, 0.8);
     padding: 5px 0;
 }
@@ -160,8 +163,8 @@ main {
     .card_bought_items{
         width: 50%;
         padding: 10px;
-        display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
         border-top: none;
     }
