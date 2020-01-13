@@ -21,14 +21,3 @@ main {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url(../pictures/legoBG.jpg);
     background-size: cover;
 }
-
-/*
-@media (min-width: 768px) and (max-width: 991.98px){
-    
-}
-@media (min-width: 578px) and (max-width: 767.98px){
-    
-}
-@media (max-width: 575.98px){
-    
-}
