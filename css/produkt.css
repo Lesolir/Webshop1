@@ -14,14 +14,14 @@ h1 {
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
-    border: 2px solid rgba(9, 84, 134, 0.8);
+    border: 2px solid var(--buttons-color);
 }
 .produkt-container h1 {
     flex-basis: 100%;
     font-size: 2rem;
     text-align: center;
     margin: 10px 0 0;
-    color: rgba(15, 138, 155, 0.8);
+    color: var(--buttons-color);
 }
 .produkt {
     width: 40%;
@@ -30,6 +30,10 @@ h1 {
     flex-direction: column;
     border-radius: 2px;
     padding: 0;
+}
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
 }
 
 .produkt-text{
@@ -50,7 +54,7 @@ h1 {
 }
 .produkt-buttons a{
     font-size: 0.8rem;
-    background-color: rgba(9, 84, 134, 0.8);
+    background-color: var(--buttons-color);
     color: white;
     text-decoration: none;
     padding: 6px;

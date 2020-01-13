@@ -4,11 +4,15 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    border-top: 1px solid rgba(9, 84, 134, 0.8);
+    border-top: 1px solid var(--buttons-color);
 }
 .footer_validation{
     display: flex;
     align-items: center;
+}
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
 }
 .footer_html img{
     margin: 2px 0 0 10px;

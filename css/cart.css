@@ -10,7 +10,10 @@ body {
     color: rgba(44, 44, 44, 0.8);
     
 }
-
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
+}
 /* MAIN */
 
 main {
@@ -34,9 +37,9 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--container-bg-color);
     border-radius: 5px;
-    border: 1px solid rgba(9, 84, 134, 0.8);
+    border: 1px solid var(--buttons-color);
 }
 .card-container h2 {
     flex-basis: 100%;
@@ -53,9 +56,9 @@ main {
     min-width: 220px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgba(9, 84, 134, 0.8);
+    border: 1px solid var(--buttons-color);
     border-radius: 5px;
-    background-color: white;
+    background-color: var(--container-bg-color);
     padding: 6px;
     align-items: center;
     margin: 4px 14px 0 14px;
@@ -73,7 +76,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-top: 1px dashed rgba(9, 84, 134, 0.8);
+    border-top: 1px dashed var(--buttons-color);
     padding: 5px 0;
 }
 .card_bought_items h3{
@@ -87,7 +90,7 @@ main {
 }
 .card-buttons a{
     font-size: 0.8rem;
-    background-color: rgba(9, 84, 134, 0.8);
+    background-color: var(--buttons-color);
     color: white;
     text-decoration: none;
     padding: 6px;
@@ -133,7 +136,7 @@ main {
         min-height: 600px;
         margin-top: 10px;
         display: flex;
-        border-top: 1px solid rgba(9, 84, 134, 0.8);
+        border-top: 1px solid var(--buttons-color);
         align-items: stretch;
     }
     .card_bought_info{
@@ -141,7 +144,7 @@ main {
         flex-direction: column;
         width: 50%;
         padding: 10px;
-        border-right: 1px dashed rgba(9, 84, 134, 0.8);
+        border-right: 1px dashed var(--buttons-color);
         justify-content: space-between;
     }
     .card_info{

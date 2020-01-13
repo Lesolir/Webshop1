@@ -24,6 +24,10 @@ li a{
     padding: 14px 16px;
     text-decoration: none;
 }
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
+}
 li a:hover{
     background-color: chocolate;
 }

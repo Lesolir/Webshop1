@@ -15,6 +15,10 @@ h1 {
     flex-wrap: wrap;
     border-radius: 5px;
 }
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
+}
 .produkt-container h1 {
     flex-basis: 100%;
     font-size: 2rem;
@@ -53,7 +57,7 @@ h1 {
 }
 .produkt-buttons a{
     font-size: 0.8rem;
-    background-color: rgba(15, 138, 155, 0.8);
+    background-color: var(--buttons-color);
     color: white;
     text-decoration: none;
     padding: 6px;
