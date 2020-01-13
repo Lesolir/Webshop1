@@ -1,3 +1,7 @@
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
+}
 .nav_container{
     width: 100%;
     display: flex;
@@ -9,8 +13,8 @@
     margin: 4px 0;
     display: flex;
     justify-content: flex-end;
-    background-color: white;
-    border: 1px solid rgba(9, 84, 134, 0.8);
+    background-color:var(--container-bg-color);
+    border: 1px solid var(--buttons-color);
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 }
@@ -74,7 +78,7 @@ input:hover{
     cursor: pointer;
 }
 #mobile_menu a:hover{
-    color: rgba(15, 138, 155, 0.8);
+    color: var(--buttons-color);
 }
 .nav_ham_button:checked + .nav_mobile_menu{
     display: block;
@@ -104,11 +108,11 @@ input:hover{
     border-radius: 4px;
 }
 .nav_desktop a:hover{
-    background-color: rgba(9, 84, 134, 0.8);
+    background-color: var(--buttons-color);
     color: white;
 }
 nav .nav_desktop ul .active a{
-    background-color: rgba(9, 84, 134, 0.8);
+    background-color: var(--buttons-color);
     color: white;
 }
 

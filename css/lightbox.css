@@ -9,6 +9,10 @@
     left: 0;
     background: rgba(0, 0, 0, 0.9);
 }
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
+}
 .lightbox img{
     width: 60%;
     max-width: 600px;
@@ -25,14 +29,14 @@
     min-height: 280px;
     min-width: 200px;
     margin: 100px auto;
-    background-color: white;
+    background-color: var(--container-bg-color);
 }
 .cart-add img{
     margin-top: 50px;
 }
 .lightbox-cart a{
     text-decoration: none;
-    color: rgba(15, 138, 155, 0.8);
+    color: var(--buttons-color);
 }
 .lightbox-cart h2{
     font-size: 1.3rem;

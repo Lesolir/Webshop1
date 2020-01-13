@@ -6,6 +6,10 @@
     min-height: 220px;
     width: 100%;
 }
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
+}
 .carousel-content{
     margin: auto;
     width: 140px;

@@ -5,7 +5,7 @@ header{
     align-items: center;
     color: rgba(44, 44, 44, 0.8);
     background-color: white;
-    border-bottom: 1px solid rgba(9, 84, 134, 0.8);
+    border-bottom: 1px solid var(--buttons-color);
 }
 .header_logo img{
     margin: 2px 0 0 4px;
@@ -21,6 +21,10 @@ header{
     width: 50px;
     margin: 2px;
     margin-right: 20px;
+}
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
 }
 
 /* MEDIA--------------------------------------------------------------------*/

@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --container-bg-color: white;
+    --buttons-color:rgba(9, 84, 134, 0.8);
+}
 .card-container {
     width: 80vw;
     height: 100%;
@@ -26,7 +30,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid rgba(9, 84, 134, 0.8);
+    border: 1px solid var(--buttons-color);
     border-radius: 5px;
     background-color: white;
     padding: 0;
@@ -34,6 +38,7 @@
     margin: 14px 14px 50px 14px;
     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.6);
 }
+
 .card:hover{
     transform: scale(1.05);
 }
@@ -61,7 +66,7 @@
 }
 .card-buttons a{
     font-size: 0.8rem;
-    background-color: rgba(9, 84, 134, 0.8);
+    background-color: var(--buttons-color);
     color: white;
     text-decoration: none;
     padding: 6px;
