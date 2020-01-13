@@ -1,21 +1,14 @@
 .carousel-products{
     margin: 10px auto 10px;
     padding: 10px 0 0;
-    /*height: 25vw;*/
     height: 100px;
     max-height: 400px;
     min-height: 220px;
-    /*width: 80vw;*/
     width: 100%;
-    /*overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid rgba(0, 0, 0, 0.4);
-    border-radius: 5px;*/
 }
 .carousel-content{
     margin: auto;
     width: 140px;
-    /*width: 16vw;*/
     perspective: 1000px;
     padding-top: 40px;
 }
@@ -31,10 +24,6 @@
 .carousel-item{
     width: 140px;
     height: 90px;
-    /*width: 16vw;*/
-    /*height: 10vw;*/
-    /*max-width: 300px;*/
-    /*max-height: 170px;*/
     border: 2px solid rgba(27, 27, 27, 0.8);
     overflow: hidden;
     position: absolute;

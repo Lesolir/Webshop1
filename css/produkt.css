@@ -28,9 +28,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 1px solid rgba(9, 84, 134, 0.8);
     border-radius: 2px;
-    background-color: white;
     padding: 0;
 }
 
